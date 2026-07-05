@@ -1,0 +1,22 @@
+# Jekyll Configuration
+title: Your Name
+description: Personal Portfolio & Bio
+baseurl: ""
+url: "https://yourdomain.com"
+
+# Theme
+theme: minima
+
+# Markdown
+markdown: kramdown
+
+# Output
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
